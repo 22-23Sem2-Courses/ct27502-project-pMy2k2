@@ -17,6 +17,6 @@
 - http://localhost/storemotor/
 - http://localhost/storemotor/admin/
 
-https://w3layouts.com/
+ 
 
 myb2014585@student.ctu.edu.vn - 1234
