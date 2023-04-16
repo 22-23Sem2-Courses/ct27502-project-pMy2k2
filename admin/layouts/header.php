@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Admin - Motor Cao Sơn</title>
+    <title>Admin - Motor Like</title>
 
     <!-- Custom fonts for this template-->
     <link href="<?php echo base_url() ?>public/admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -28,7 +28,7 @@
 
 <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-    <a class="navbar-brand mr-1" href="<?php echo base_url() ?>admin">Motor Cao Sơn</a>
+    <a class="navbar-brand mr-1" href="<?php echo base_url() ?>admin">Motor Like</a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
