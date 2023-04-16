@@ -81,7 +81,6 @@ $category = $db->fetchAll("category_product");
                     </table>
                 </div>
             </div>
-            <div class="card-footer small text-muted">Đồ án tốt nghiệp - Sinh Viên: Tạ Mạnh Tiền</div>
         </div>
     </div>
     <!--End.admin-content-->

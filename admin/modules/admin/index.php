@@ -82,8 +82,7 @@ $sql = "SELECT admin.* FROM admin ORDER BY ID DESC ";
                         </table>
                     </div>
                 </div>
-               
-            </div>
+                
         </div>
         <!--End.admin-content-->
     </div>
