@@ -13,7 +13,7 @@ $category = $db->fetchAll("category_product");
         <li class="breadcrumb-item">
             <a href="#">Trang chủ</a>
         </li>
-        <li class="breadcrumb-item active">Tổng quan website</li>
+        <li class="breadcrumb-item active">Tổng quan  </li>
     </ol>
     <!-- End.Breadcrumbs-->
 
