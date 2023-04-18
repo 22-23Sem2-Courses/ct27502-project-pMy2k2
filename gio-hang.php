@@ -53,6 +53,7 @@ if ( !isset($_SESSION['cart']) | count($_SESSION['cart']) == 0)
                     <?php $stt = 1; foreach ($_SESSION['cart'] as $key => $value):  ?>
                         <tr>
                             <td><?php echo $stt ?></td>
+                             
                             <td><?php echo $value['name'] ?></td>
                             <td>
                                 <img src="<?php echo uploads() ?>product/<?php echo $value['thumbar'] ?>" width="80px" height="80px" />
