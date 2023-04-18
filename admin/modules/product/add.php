@@ -56,11 +56,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     if(empty($error))
     {
         $isset = $db->fetchOne("product","name = '".$data['name']."' ");
-        if(count($isset) > 0){
-            $_SESSION['error'] = "Tên sản phẩm đã tồn tại";
-        }
-        else
-        {
+        // if(count($isset) > 0){
+        //     $_SESSION['error'] = "Tên sản phẩm đã tồn tại";
+        // }
+        // else
+        // {
             if (isset($_FILES['thumbar']))
             {
                 $file_name = $_FILES['thumbar']['name'];
@@ -72,7 +72,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
                     $part = ROOT ."product/";
                     $data['thumbar'] = $file_name;
                 }
-            }
+            // }
 //        _debug($data);
             $id_insert = $db->insert("product", $data);
             if ($id_insert)
