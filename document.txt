@@ -14,9 +14,7 @@
     + Function
     + Database
 
-- http://localhost/storemotor/
-- http://localhost/storemotor/admin/
-
+ 
  
 
 myb2014585@student.ctu.edu.vn - 1234
