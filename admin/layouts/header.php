@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Admin - Motor Cao Sơn</title>
+    <title>Admin - Motor Like</title>
 
     <!-- Custom fonts for this template-->
     <link href="<?php echo base_url() ?>public/admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -28,7 +28,7 @@
 
 <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-    <a class="navbar-brand mr-1" href="<?php echo base_url() ?>admin">Motor Cao Sơn</a>
+    <a class="navbar-brand mr-1" href="<?php echo base_url() ?>admin">Motor Like</a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -63,39 +63,15 @@
                 </span>
             </a>
         </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-fw fa-folder"></i>
-                <span>Danh mục</span>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-                <ul class="dropdowm-menu-list">
-                    <li>
-                        <a class="dropdown-item" href="<?php echo modules("categoryProduct") ?>">Sản phẩm</a>
-                    </li>
-
-                    <li>
-                        <a class="dropdown-item" href="<?php echo modules("categoryPost") ?>">Tin tức</a>
-                    </li>
-                </ul>
-            </div>
-        </li>
+         
         <li class="nav-item <?php echo isset($open) && $open == 'product' ? 'active' : '' ?>">
             <a class="nav-link" href="<?php echo modules("product") ?>">
                 <i class="fas fa-fw fa-chart-area"></i>
                 <span>Sản phẩm</span>
             </a>
         </li>
-        <li class="nav-item <?php echo isset($open) && $open == 'post' ? 'active' : '' ?>">
-            <a class="nav-link" href="<?php echo modules("post") ?>">
-                <i class="fas fa-fw fa-table"></i>
-                <span>Tin tức</span></a>
-        </li>
-        <li class="nav-item <?php echo isset($open) && $open == 'admin' ? 'active' : '' ?>">
-            <a class="nav-link" href="<?php echo modules("admin") ?>">
-                <i class="fa fa-user"></i>
-                <span>Admin</span></a>
-        </li>
+        
+       
 
         <li class="nav-item <?php echo isset($open) && $open == 'user' ? 'active' : '' ?>">
             <a class="nav-link" href="<?php echo modules("user") ?>">
@@ -109,11 +85,7 @@
                 <span>Quản lý đơn hàng</span></a>
         </li>
 
-        <li class="nav-item <?php echo isset($open) && $open == 'comment' ? 'active' : '' ?>">
-            <a class="nav-link" href="<?php echo modules("comment") ?>">
-                <i class="fa fa-comment"></i>
-                <span>Bình luận</span></a>
-        </li>
+        
 
         <li class="nav-item <?php echo isset($open) && $open == 'contact' ? 'active' : '' ?>">
             <a class="nav-link" href="<?php echo modules("contact") ?>">
@@ -122,7 +94,7 @@
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" href="/storemotor/dang-xuat.php">
+            <a class="nav-link" href="/ct27502-project-pMy2k2/dang-xuat.php">
                 <i class="fas fa-user-circle fa-fw"></i>
                 <span>Đăng xuất</span></a>
         </li>
