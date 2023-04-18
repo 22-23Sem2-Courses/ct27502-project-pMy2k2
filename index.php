@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__."/autoload/autoload.php";
-//unset($_SESSION['cart']);
+
 
 /*
  * Lấy ra tất cả các danh mục sản phẩm được active - hiển thị
