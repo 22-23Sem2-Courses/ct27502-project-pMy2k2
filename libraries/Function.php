@@ -104,7 +104,7 @@ function  postInput($string)
 
 function base_url()
 {
-    return $url  = "http://localhost/storemotor/";
+    return $url  = "http://localhost/ct27502-project-pMy2k2/";
 }
 
 

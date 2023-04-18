@@ -7,9 +7,9 @@ $db = new Database;
 
 if ( !isset($_SESSION['admin_id']))
 {
-    header("location: /storemotor/login");
+    header("location: /ct27502-project-pMy2k2/login");
 }
 
-define("ROOT", $_SERVER['DOCUMENT_ROOT'] ."/storemotor/public/uploads/");
+define("ROOT", $_SERVER['DOCUMENT_ROOT'] ."/ct27502-project-pMy2k2/public/uploads/");
 
 ?>

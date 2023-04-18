@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
             // Nếu $is_check khác NULL thì đăng nhập thất bại
             $_SESSION['admin_name'] = $is_check['name'];
             $_SESSION['admin_id'] = $is_check['id'];
-            echo "<script>alert('Đăng nhập thành công');location.href='/storemotor/admin/'</script>";
+            echo "<script>alert('Đăng nhập thành công');location.href='/ct27502-project-pMy2k2/admin/'</script>";
 
         }
         else

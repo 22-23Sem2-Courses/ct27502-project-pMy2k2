@@ -156,7 +156,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
         </div>
 
         <div class="contact-google-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59546.700201149346!2d105.974015!3d21.125768!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc33b2a062467a9c2!2sHEAD+honda+Cao+S%C6%A1n!5e0!3m2!1sen!2sus!4v1561082715456!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
 
         <!-- Nội dung -->
